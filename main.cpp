@@ -1,5 +1,6 @@
 #include <iostream>
+#include "foo.hpp"
 
 int main() {
-    std::cout << "Hello, world!\n";
+    std::cout << sum(5, 2);
 }
